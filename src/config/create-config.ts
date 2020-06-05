@@ -14,6 +14,6 @@ export const defaultOptions: CreateConfig = {
   useChrome: true,
   debug: false,
   logQR: true,
-  browserArgs: [''],
-  refreshQR: 30000,
+  browserArgs: ['--no-sandbox'],
+  refreshQR: 15000,
 };
